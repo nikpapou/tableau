@@ -1,0 +1,1699 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0613.1930                               -->
+<workbook original-version='18.1' source-build='2024.2.0 (20242.24.0613.1930)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='survey lung cancer' inline='true' name='federated.0j687ci0gzb8g51fvljhc1vgiigg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='survey lung cancer' name='textscan.1iw9jg7197xsvp15snkmv1mql0cg'>
+            <connection class='textscan' directory='C:/Users/nikpa/OneDrive/Documents/NIKOS/ΣΠΟΥΔΕΣ/ΣΕΜΙΝΑΡΙΑ/Data Analysis/Workearly/Healthcare Analytics Bootcamp/Tableau/Tableau Playground/Bioinformatics Healthcate/Tableau datasets/x2' filename='survey lung cancer.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1iw9jg7197xsvp15snkmv1mql0cg' name='survey lung cancer.csv' table='[survey lung cancer#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='el_GR'>
+            <column datatype='string' name='GENDER' ordinal='0' />
+            <column datatype='integer' name='AGE' ordinal='1' />
+            <column datatype='string' name='SMOKING' ordinal='2' />
+            <column datatype='string' name='YELLOW_FINGERS' ordinal='3' />
+            <column datatype='string' name='ANXIETY' ordinal='4' />
+            <column datatype='string' name='PEER_PRESSURE' ordinal='5' />
+            <column datatype='string' name='CHRONIC DISEASE' ordinal='6' />
+            <column datatype='string' name='FATIGUE ' ordinal='7' />
+            <column datatype='string' name='ALLERGY ' ordinal='8' />
+            <column datatype='string' name='WHEEZING' ordinal='9' />
+            <column datatype='string' name='ALCOHOL CONSUMING' ordinal='10' />
+            <column datatype='string' name='COUGHING' ordinal='11' />
+            <column datatype='string' name='SHORTNESS OF BREATH' ordinal='12' />
+            <column datatype='string' name='SWALLOWING DIFFICULTY' ordinal='13' />
+            <column datatype='string' name='CHEST PAIN' ordinal='14' />
+            <column datatype='string' name='LUNG_CANCER' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1iw9jg7197xsvp15snkmv1mql0cg' name='survey lung cancer.csv' table='[survey lung cancer#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='el_GR'>
+            <column datatype='string' name='GENDER' ordinal='0' />
+            <column datatype='integer' name='AGE' ordinal='1' />
+            <column datatype='string' name='SMOKING' ordinal='2' />
+            <column datatype='string' name='YELLOW_FINGERS' ordinal='3' />
+            <column datatype='string' name='ANXIETY' ordinal='4' />
+            <column datatype='string' name='PEER_PRESSURE' ordinal='5' />
+            <column datatype='string' name='CHRONIC DISEASE' ordinal='6' />
+            <column datatype='string' name='FATIGUE ' ordinal='7' />
+            <column datatype='string' name='ALLERGY ' ordinal='8' />
+            <column datatype='string' name='WHEEZING' ordinal='9' />
+            <column datatype='string' name='ALCOHOL CONSUMING' ordinal='10' />
+            <column datatype='string' name='COUGHING' ordinal='11' />
+            <column datatype='string' name='SHORTNESS OF BREATH' ordinal='12' />
+            <column datatype='string' name='SWALLOWING DIFFICULTY' ordinal='13' />
+            <column datatype='string' name='CHEST PAIN' ordinal='14' />
+            <column datatype='string' name='LUNG_CANCER' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;el&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;el_GR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GENDER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GENDER]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>GENDER</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AGE</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AGE]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>AGE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SMOKING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SMOKING]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>SMOKING</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>YELLOW_FINGERS</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[YELLOW_FINGERS]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>YELLOW_FINGERS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANXIETY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ANXIETY]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>ANXIETY</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PEER_PRESSURE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PEER_PRESSURE]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>PEER_PRESSURE</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CHRONIC DISEASE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CHRONIC DISEASE]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>CHRONIC DISEASE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FATIGUE </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[FATIGUE ]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>FATIGUE </remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALLERGY </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALLERGY ]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>ALLERGY </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WHEEZING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WHEEZING]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>WHEEZING</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ALCOHOL CONSUMING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ALCOHOL CONSUMING]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>ALCOHOL CONSUMING</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUGHING</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[COUGHING]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>COUGHING</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SHORTNESS OF BREATH</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SHORTNESS OF BREATH]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>SHORTNESS OF BREATH</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SWALLOWING DIFFICULTY</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SWALLOWING DIFFICULTY]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>SWALLOWING DIFFICULTY</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CHEST PAIN</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CHEST PAIN]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>CHEST PAIN</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LUNG_CANCER</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LUNG_CANCER]</local-name>
+            <parent-name>[survey lung cancer.csv]</parent-name>
+            <remote-alias>LUNG_CANCER</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEL_RGR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[ALCOHOL CONSUMING]' role='dimension' type='nominal' />
+      <column datatype='string' name='[CHEST PAIN]' role='dimension' type='nominal' />
+      <column datatype='string' name='[COUGHING]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='survey lung cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+      <group caption='Action (ALCOHOL CONSUMING)' hidden='true' name='[Action (ALCOHOL CONSUMING)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[ALCOHOL CONSUMING]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (CHEST PAIN,COUGHING)' hidden='true' name='[Action (CHEST PAIN,COUGHING)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[CHEST PAIN]' />
+          <groupfilter function='level-members' level='[COUGHING]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/nikpa/AppData/Local/Temp/TableauTemp/#TableauTemp_0k1au4g1azm6pn1akuux71c0jmk8.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='01/03/2025 04:33:51 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>GENDER</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[GENDER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>GENDER</remote-alias>
+              <ordinal>0</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AGE</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AGE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AGE</remote-alias>
+              <ordinal>1</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SMOKING</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SMOKING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SMOKING</remote-alias>
+              <ordinal>2</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>YELLOW_FINGERS</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[YELLOW_FINGERS]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>YELLOW_FINGERS</remote-alias>
+              <ordinal>3</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ANXIETY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ANXIETY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ANXIETY</remote-alias>
+              <ordinal>4</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PEER_PRESSURE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PEER_PRESSURE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PEER_PRESSURE</remote-alias>
+              <ordinal>5</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CHRONIC DISEASE</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CHRONIC DISEASE]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CHRONIC DISEASE</remote-alias>
+              <ordinal>6</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FATIGUE </remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FATIGUE ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FATIGUE </remote-alias>
+              <ordinal>7</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ALLERGY </remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ALLERGY ]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ALLERGY </remote-alias>
+              <ordinal>8</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WHEEZING</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WHEEZING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WHEEZING</remote-alias>
+              <ordinal>9</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ALCOHOL CONSUMING</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ALCOHOL CONSUMING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ALCOHOL CONSUMING</remote-alias>
+              <ordinal>10</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>COUGHING</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[COUGHING]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>COUGHING</remote-alias>
+              <ordinal>11</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SHORTNESS OF BREATH</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SHORTNESS OF BREATH]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SHORTNESS OF BREATH</remote-alias>
+              <ordinal>12</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SWALLOWING DIFFICULTY</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SWALLOWING DIFFICULTY]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SWALLOWING DIFFICULTY</remote-alias>
+              <ordinal>13</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CHEST PAIN</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CHEST PAIN]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CHEST PAIN</remote-alias>
+              <ordinal>14</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LUNG_CANCER</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LUNG_CANCER]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LUNG_CANCER</remote-alias>
+              <ordinal>15</ordinal>
+              <family>survey lung cancer.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEL_RGR' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Greece&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='survey lung cancer.csv' id='survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B'>
+            <properties context=''>
+              <relation connection='textscan.1iw9jg7197xsvp15snkmv1mql0cg' name='survey lung cancer.csv' table='[survey lung cancer#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='el_GR'>
+                  <column datatype='string' name='GENDER' ordinal='0' />
+                  <column datatype='integer' name='AGE' ordinal='1' />
+                  <column datatype='string' name='SMOKING' ordinal='2' />
+                  <column datatype='string' name='YELLOW_FINGERS' ordinal='3' />
+                  <column datatype='string' name='ANXIETY' ordinal='4' />
+                  <column datatype='string' name='PEER_PRESSURE' ordinal='5' />
+                  <column datatype='string' name='CHRONIC DISEASE' ordinal='6' />
+                  <column datatype='string' name='FATIGUE ' ordinal='7' />
+                  <column datatype='string' name='ALLERGY ' ordinal='8' />
+                  <column datatype='string' name='WHEEZING' ordinal='9' />
+                  <column datatype='string' name='ALCOHOL CONSUMING' ordinal='10' />
+                  <column datatype='string' name='COUGHING' ordinal='11' />
+                  <column datatype='string' name='SHORTNESS OF BREATH' ordinal='12' />
+                  <column datatype='string' name='SWALLOWING DIFFICULTY' ordinal='13' />
+                  <column datatype='string' name='CHEST PAIN' ordinal='14' />
+                  <column datatype='string' name='LUNG_CANCER' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_FDA1E3DCC13447C182EC6C65A3BE726A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Bar Chart' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_E322A6000C994ABEB6DBB07E5E371A71]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Area Chart' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_743167987FE74857871D7518DE3961E2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Pie Chart' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+    <action caption='Filter 4 (generated)' name='[Action4_E9B2B04EF718456DA3CB51E00FC80F0A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Dashboard 1' type='sheet' worksheet='Treemap' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Dashboard 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Area Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='survey lung cancer' name='federated.0j687ci0gzb8g51fvljhc1vgiigg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j687ci0gzb8g51fvljhc1vgiigg'>
+            <column datatype='integer' name='[AGE]' role='measure' type='quantitative' />
+            <column datatype='string' name='[ALCOHOL CONSUMING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[CHEST PAIN]' role='dimension' type='nominal' />
+            <column datatype='string' name='[COUGHING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[LUNG_CANCER]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='survey lung cancer.csv' datatype='integer' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='survey lung cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[AGE]' derivation='None' name='[none:AGE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LUNG_CANCER]' derivation='None' name='[none:LUNG_CANCER:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]'>
+            <groupfilter function='level-members' level='[ALCOHOL CONSUMING]' user:ui-action-filter='[Action4_E9B2B04EF718456DA3CB51E00FC80F0A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_FDA1E3DCC13447C182EC6C65A3BE726A]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[CHEST PAIN]' member='&quot;No&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[COUGHING]' member='&quot;No&quot;' />
+                <groupfilter function='member' level='[COUGHING]' member='&quot;Yes&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]'>
+            <groupfilter function='member' level='[none:LUNG_CANCER:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:AGE:qk]' />
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:AGE:qk]> Years Old]]></run>
+                <run>Æ&#10;</run>
+                <run bold='true' fontsize='14'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]> Cases]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='mark-labels-range-field' value='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]</rows>
+        <cols>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:AGE:qk]</cols>
+      </table>
+      <simple-id uuid='{5F3C85CC-D2D9-4AA3-8370-60446B7064E9}' />
+    </worksheet>
+    <worksheet name='Bar Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='survey lung cancer' name='federated.0j687ci0gzb8g51fvljhc1vgiigg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j687ci0gzb8g51fvljhc1vgiigg'>
+            <column datatype='string' name='[ALCOHOL CONSUMING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[CHEST PAIN]' role='dimension' type='nominal' />
+            <column datatype='string' name='[COUGHING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[LUNG_CANCER]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='survey lung cancer.csv' datatype='integer' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='survey lung cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[CHEST PAIN]' derivation='None' name='[none:CHEST PAIN:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COUGHING]' derivation='None' name='[none:COUGHING:nk]' pivot='key' type='nominal' />
+            <column-instance column='[LUNG_CANCER]' derivation='None' name='[none:LUNG_CANCER:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]'>
+            <groupfilter function='level-members' level='[ALCOHOL CONSUMING]' user:ui-action-filter='[Action4_E9B2B04EF718456DA3CB51E00FC80F0A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]'>
+            <groupfilter function='member' level='[none:LUNG_CANCER:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:COUGHING:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]</rows>
+        <cols>([federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:CHEST PAIN:nk] / [federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:COUGHING:nk])</cols>
+      </table>
+      <simple-id uuid='{68E36F04-5C97-44CF-A6A8-0948D94D6DF5}' />
+    </worksheet>
+    <worksheet name='Pie Chart'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='survey lung cancer' name='federated.0j687ci0gzb8g51fvljhc1vgiigg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j687ci0gzb8g51fvljhc1vgiigg'>
+            <column datatype='string' name='[ALCOHOL CONSUMING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[CHEST PAIN]' role='dimension' type='nominal' />
+            <column datatype='string' name='[COUGHING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[LUNG_CANCER]' role='dimension' type='nominal' />
+            <column datatype='string' name='[SMOKING]' role='dimension' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='survey lung cancer.csv' datatype='integer' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.true...column caption='survey lung cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[LUNG_CANCER]' derivation='None' name='[none:LUNG_CANCER:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SMOKING]' derivation='None' name='[none:SMOKING:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]'>
+            <groupfilter function='level-members' level='[ALCOHOL CONSUMING]' user:ui-action-filter='[Action4_E9B2B04EF718456DA3CB51E00FC80F0A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_FDA1E3DCC13447C182EC6C65A3BE726A]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[CHEST PAIN]' member='&quot;No&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[COUGHING]' member='&quot;No&quot;' />
+                <groupfilter function='member' level='[COUGHING]' member='&quot;Yes&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]'>
+            <groupfilter function='member' level='[none:LUNG_CANCER:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (ALCOHOL CONSUMING)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:SMOKING:nk]' />
+              <wedge-size column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+              <size column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:SMOKING:nk]' />
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>SMOKING:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:SMOKING:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Count </run>
+                <run bold='true'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Percenage </run>
+                <run bold='true'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{97850CE7-AEC5-4101-8C8A-AEF74D21641C}' />
+    </worksheet>
+    <worksheet name='Treemap'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='survey lung cancer' name='federated.0j687ci0gzb8g51fvljhc1vgiigg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0j687ci0gzb8g51fvljhc1vgiigg'>
+            <column datatype='string' name='[ALCOHOL CONSUMING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[CHEST PAIN]' role='dimension' type='nominal' />
+            <column datatype='string' name='[COUGHING]' role='dimension' type='nominal' />
+            <column datatype='string' name='[LUNG_CANCER]' role='dimension' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='survey lung cancer.csv' datatype='integer' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <_.fcp.ObjectModelTableType.true...column caption='survey lung cancer.csv' datatype='table' name='[__tableau_internal_object_id__].[survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B]' role='measure' type='quantitative' />
+            <column-instance column='[ALCOHOL CONSUMING]' derivation='None' name='[none:ALCOHOL CONSUMING:nk]' pivot='key' type='nominal' />
+            <column-instance column='[LUNG_CANCER]' derivation='None' name='[none:LUNG_CANCER:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action1_FDA1E3DCC13447C182EC6C65A3BE726A]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[CHEST PAIN]' member='&quot;No&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[COUGHING]' member='&quot;No&quot;' />
+                <groupfilter function='member' level='[COUGHING]' member='&quot;Yes&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]'>
+            <groupfilter function='member' level='[none:LUNG_CANCER:nk]' member='&quot;Yes&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</column>
+            <column>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[Action (CHEST PAIN,COUGHING)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+              <color column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:ALCOHOL CONSUMING:nk]' />
+              <text column='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='18'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:ALCOHOL CONSUMING:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontsize='18'><![CDATA[<[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[pcto:cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{4CCD4004-4A24-4896-A477-D9FD4667DF7E}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98082' id='8' param='horz' type-v2='layout-flow' w='99052' x='474' y='959'>
+            <zone h='98082' id='6' type-v2='layout-basic' w='99052' x='474' y='959'>
+              <zone h='49041' id='3' name='Area Chart' w='49526' x='474' y='959'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49041' id='5' name='Bar Chart' w='49526' x='50000' y='959'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49041' id='10' name='Pie Chart' w='49526' x='474' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49041' id='13' name='Treemap' w='49526' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98082' id='14' param='vert' type-v2='layout-flow' w='99052' x='474' y='959'>
+                <zone fixed-size='280' h='49041' id='3' is-fixed='true' name='Area Chart' w='49526' x='474' y='959'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49041' id='5' is-fixed='true' name='Bar Chart' w='49526' x='50000' y='959'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49041' id='10' is-fixed='true' name='Pie Chart' w='49526' x='474' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49041' id='13' is-fixed='true' name='Treemap' w='49526' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{02DD972B-8C58-4843-B9F5-68E54FDD08B3}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.10417' source-height='32'>
+    <window class='worksheet' name='Area Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{498A5A3B-9334-4471-9FCB-C547FD14C847}' />
+    </window>
+    <window class='worksheet' name='Bar Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='159'>
+            <card pane-specification-id='0' param='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:COUGHING:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:CHEST PAIN:nk]</field>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:COUGHING:nk]</field>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0EE3CE9B-9985-46B8-875D-AB779B93E599}' />
+    </window>
+    <window class='worksheet' name='Pie Chart'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='159'>
+            <card pane-specification-id='0' param='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:SMOKING:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</field>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:SMOKING:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{9957B02D-A937-4594-A712-5363AD2AA2E9}' />
+    </window>
+    <window class='worksheet' name='Treemap'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='159'>
+            <card pane-specification-id='0' param='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:ALCOHOL CONSUMING:nk]</field>
+            <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:LUNG_CANCER:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{024F537E-C45A-4627-96ED-10B11BBF1400}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Area Chart'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Bar Chart'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <node-selection select-tuples='false'>
+              <oriented-node-reference orientation='horizontal'>
+                <node-reference>
+                  <fields>
+                    <field>[federated.0j687ci0gzb8g51fvljhc1vgiigg].[none:CHEST PAIN:nk]</field>
+                  </fields>
+                  <multibucket>
+                    <bucket>&quot;No&quot;</bucket>
+                  </multibucket>
+                </node-reference>
+                <page-reference />
+              </oriented-node-reference>
+            </node-selection>
+          </selection-collection>
+        </viewpoint>
+        <viewpoint name='Pie Chart'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.0j687ci0gzb8g51fvljhc1vgiigg].[__tableau_internal_object_id__].[cnt:survey lung cancer.csv_DFE330C6A5B74625B1A28630D2B2767B:qk]' type='size'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+        <viewpoint name='Treemap' />
+      </viewpoints>
+      <active id='13' />
+      <simple-id uuid='{A93606A8-DB99-4378-A34C-84159111C42A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Area Chart' width='192'>
+      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
+      AnE9OijtpcYAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Bar Chart' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABBNAAAQTQFnjAHg
+      AAAT3klEQVR4nO3daXCc9X3A8e+zz55a3dLqWml12fIlRcb4xE7AF+JIIBwhIQnT5uiEZNq0
+      nQmdTF600IQ2HYYkTZqBAk6ggYBDIAlHwBBs2cY2kg22ZdmWbOuWdR8raXXt8Tx9IeMiYy5V
+      q7X8/31e2Y+1z/Nf7361zx6zP800TRMhFKRpmmaJ9SKEiCUJQChNAhBKkwCE0uZVAH6/n8HB
+      wVgvQ1xG5lUAQsw2CeByN9FJ9dtNBGO9jkuUNdYLuJSND/XQdrabkMVNbr6XyGAPZmImafF2
+      QqODtPtDFHpT6Wo8TU8gBIBuS6J4ST4E+mht7WTStOPxenFNDtDW7cc4t2+r20NJcTZWwvS3
+      tXJ2MACaTnKmF296EroGgcEO2rtGyC5eRJJDwzTHaGsaINOXw3hfG90jGr7CPFzWED2tvbhz
+      vLin3aIGPTV7OTaygpUXXLfg6CBtbR2MRazk5BeQFm9npO8sbV2D4EjE5/MS77DS39mKmZBJ
+      eryD4PgAXX0RcnM9aGaI3vYWeobG0WwufIVFxJnDtPeG8Ho9WC3Q1d5IXFoecWaA9sEIed50
+      ehtrGbJlUZKXjjE5RufAMDlZmWgYDPWcpaPHT8RiJzu/iPR4e9RvY3kE+ADGUDNPPvYobxw8
+      zvG33+FMdzd7tz/Gzvp+AAYbqvjZ068Ao7zwyIO8vK+WM2fO0NTcRcgY4vWnnmBn9Qnqag7y
+      6v5aRge6aKip4mf/+hPePH2a5vY+IgAE2LPtAX7/5hnqaqrZ9otHOdE/hgm89fJv+eXPf8xr
+      xwcwATPSzLYHf03X6CRvP/8Q9/7HwxxqHgL6eeWRp2gYveBKRMZ5+3iAFcuypt/QxiB/2vYw
+      L+55h5O1B6ltGiLUe4LHHn6CA0dPsvelJ9n2+zcZB3Y/+wi7TnQBMNC2n22Pv8ZkOMTp3c/y
+      yNOvUFtXT83BndR1hhjvqOK/t+1gODx1mD888ROOtA4z1rSfX/7mdUaB5x/6Hj+8/zd0h2Gs
+      r4knnv0joYhJ/8ld/PzRZzh8vJ76o9VU13dH66adRh4BLsYMc+QvfyBQeB3fvWUFFkzMyATt
+      H/DjVncKazd/jo0lCVMbRus5cWqST3/3Wtb6kjAN0HULN2dncGRfO5tuvZXFmjZtH1dsvpXP
+      Lxwj5aEfcbh+hNLUIMcahrn9lgr2VR1iovxaHBccd/nKMg7uOcBVC5ZfdF3j/h7OWlysT3G9
+      Z6tB11svcNh6JT/4xlbcFhPTmKDysV/iWvdXfG1TIYQ62fZvv+BQy7qL7jfYXc+TO1r52r/c
+      Q4HTAqaJqWmMNX30fy1JRWwuDvLSa/Xc9qlz2yY7+dPTO9nwzX9mo88BmJim9mF7mTUSwMUY
+      ITrPDpG9Jgtd0wCNqZtjlB2P/5TjL8YxPniWruQNAAT9HTzz8I/ZnWgjPm8t3/n6RioqCnlh
+      24Psz1rG9Tddx9LcFD7sJh0d6qfnbA8nuzXKshwEm/fTYSnl9rIy3tj3IkNjG8lwTb9M5oJy
+      4mr/zOGe0ovu0991BkfyQlx2/T1bI3S2t5PmW0O8fu66GUG6e0L4NqVj0TSwZ5DpidDZM3jR
+      O0hgaAB/QhI+V5C9Tz/GjiMtrPjCPVSkGrQc2cEDPzqDwwL1LZMsu/DCmgXflRXUH9hJV8Ha
+      qW0jg7QMJ3J1rpP6yif57V+OkbP6Tr528/L3RT/bJICLsegkpzho7vNj4n3PHddNxV/fzReu
+      zKan5lXuf23qYdqenMOXvvj9/3sEAJZfeyfLt4Q5tee3/PQ/n+H+B75N6occsurPT+HPjKP0
+      lm+wodDFwV/tocOfwusv99NRX8s7XaNcVzj9MpojnRtuXs5Dz/+FuPCFewzSeLQO3/q/wTat
+      PJ2U1FSGWnuYNBfj0ADdRmqyRkf3CCxMhMgQg4MW8lITGdOtDEWmTtYi45NoTieuuDgcIyP0
+      hV185s5v4QzdT9XAOKRayF9ewfd+8FVS7fDQ/X970etqT8jmKp+dyprmqQ2uOFLsw/T2h1m3
+      8av8vfNX/PidwfPPl6JJArgYzcbyqzex54mXeDlxgiwtiLsg7wN/3AiO09pQx/FQHLo1kcK0
+      cf60v4XigizGRww8WanYPuKQm+78Lrcsmvpz2N/E3tMOvnX3HeRaDYpdw1S+VcfmwqT3Xc7t
+      W08+97LnrMan37M94m+gdjiPO3KdF1zCQt6aCtL2/YY/vmZlUWqIcPIy1l23mZ9tf46d9s8Q
+      aTlAe/wKPpfvondZMU+9uZsat5+aXXUUrbydpLwcrl9cya9/9Rxb1hTS0h8kruAT3JU0K6XX
+      bOCNHz1KU/oCiMvl+q3F/M/jj2NuXoXZOkC8e8mHPmLOFv3ee++9dw6OMysmJiYAcLlcH/GT
+      /18a9qRcyhak09F4msGIk8LCAtJTU8jMzSPVbUez2klNy8SX7cGm6wwN9tLb24t/GPLKSogb
+      66WxqYUxRw433LiRjDg7aBbcyan48r24zj8H0HDEJZPlK+DdU/VwKITuyeWq8iWkpaSS58vD
+      ptnJ9maQlJiOr8BLfHwCGd58PIlOMj0ZJGbnsWhhAXHn7oft79TSlZzH6qKM9107iyOFstIC
+      Btsb6ByxUFBcSLavhEXZNpobmggnLuTmmzeR7rSSmlNMpj1AfVMXGUs2sHXdYhxWB/ml5SSO
+      d9LU1o0j9wquWb2IhDgXiakZ5HnTsVrA5Y7Hm1tIYrybpLRMfNlpuOPi8foKSUrOxOuxkZqz
+      lEW+LDyFpRQmjNHU1MaoM49rN64izW2PagT33Xfffdp8+ji03+/HNE1SUlJivZRL3htV7aRl
+      xbM8PznWS7lkaZqmySnQZWp5aTZO29y8kjKfSQCXqTS3/tE/JOSNMKE2CUAoTQIQSpMAPqGu
+      2kqeq6wlYphgBDlx4jgjY6FYL+uSYY51caC6jgnDxDQjdJ6oonl4Lt7SmhkJ4BMKhUcZbanj
+      WM8EmAb9A/0EQwZExjhevZfKvW/RMTTJvHlteZZpcR7SzWaONQwy1tfE0R47uYkWJoY7qd6z
+      kwOH6wkEDSITfmqq3mRn5T7a/ZMxW68E8ElpDhavLaXz4CEGJs/9ZjODnHprN722LPIynBx+
+      6yCByUhs1xkzOr5FZfQ2HKbmRCOFJcVYjVGOVddizyogfqKb481n6Tpdx4CWQGFeOqMjgZit
+      VgKYAd3lY2F2kPrGqY8JEwrQNJHK+vIFFC9cgscZYWQsdr/VYs2RlEl5yigNwRwKshJhrJva
+      hnZOHX2bE6frOXamh4TUZMY7z3DwyCls7viYrVXeB5ihwmVltO48xKDdzVLdhiM0RG8gRIZ9
+      jKGJIIVWhf9rNSs5Xg8J9kwcFsDqwJNTyJXrVxCvhxgNWbE5NdZvyoXJdva8eZSsm1YTF4Ol
+      KnwrzYzFYkW3gO7yUL44nsde7eTqNWu4sjSHV1/azmhYI7/0KpLjPurjb5c3TdOx6ufeiXZm
+      sjSnjjdefB7D6qJw+VUsiR9kz76jjBg6JVdsivrHnj9wnfJZIKEq+WpEoTwJQCjtfc8BTNOk
+      ubk5Bkv5aMHg1Jd7+P3+GK9EXC7kOYBQljwHEMqTAITSJAChNAlAKE0CEEqTAITSJAChNAlA
+      KE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE0CEEqTAITSJAChNAlAKE2+GU7E1MSu
+      fydUs33Ojmdf8y0ca799/u8SgIgtMwLG+6Z8R48x/Vu75RRIKE0CEEqTAITSov8cwDQZOHua
+      2uO1tATTuP26q3FaDbpPH2J39UkmIlaWbKhgZVEqrTV72V/TRNB0sWrLDSzNSUBGPYtompMn
+      wVZXEovLVhFpbAXANMKcaexg3Y1fJMvaz67dRxnIWUVj6yibb/0yiZON7NpfR0H2KtxSgIii
+      6AegaSSmZRIX6D2/yTRGCEc8pCU7sWtecpIOMTjSh6H7SHHbsbsX4bG/yMgkuOwGkcjUM/dw
+      OIxpmue/JFfMf+/etnN2PMOYdv+J0cugFtBCGIYJukkkrKHrVjBDTH1Vb4hwZGoSi6Zp6Lo+
+      dSmLBdM0z/9dzH8Ri4W5HKJqec/9CWIUgMUSj03ro61rhAJLC42jHrYmpNMcPsjZgRJSho7Q
+      bc3nSjtoaGiadu5yEsDl5t3bdi6PN6cBmEaEI7ue40jrKBHDoLm5mzUbN7FizWr2VP6Zw2YK
+      G7deQ7zNzqo1Zeze+UcCjly2bl2EPdqLE8qLegCaReeKzXdwxfv+JZmKW33TtiRklfDZL5RE
+      e0lCnCfvAwilSQBCaRKAUJoEIJQmAQilSQBCaRKAUJoEIJQmAQilSQBCaRKAUJoEIJQmAQil
+      SQBCaRKAUJoEIJQmAQilSQBCaRKAUJoEIJQmAQilSQBCaRKAUJoEIJQmAQilSQBCaRKAUJoE
+      IJQmAQilSQBCaTEZkGEaYeqrdnDoVC9hi4srrqngU7kJNB/dw/6aFoKmg5VbbqTUmyhD8kRU
+      xSSASKSX1t5kbrqzAvt4Kzsra8jzLKepbYItt32FpGATu/bVUZSzWobkiaiK2YywSGQCw9Sw
+      ubKI1w/hH+vD0PNIcduwuxeSfm5IntMWwTCmpki9OyRvcnIyNssWs27Oh+RFItPuPzEJQLem
+      s7TYxqvPPoXhTMaFkyKrFcwghgkQJByxoVum5oK9d0YYgM1mi8WyRRQYcz0kz6JPu//E7BEg
+      e9Fq7ihdj7/5ENXtyXjiPJx6d0ie/wjdtg8ekvduCGL+m/sheUy7/8QmANOg+Wgl1XW9uHOX
+      UrFhAXbdwup15eze9QIBRx7Xbi2RIXki6mISgGbRKVl9HSWrp2+Pz1jAjbcviMWShKLkXEIo
+      TQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIk
+      AKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoTQIQSpMAhNIkAKE0CUAoLUZf
+      j25iXrBJ08A0L9wm85FEdMVmSJ5pcPqdNzh0ooMQVnIXrWH9qiI6jlRyoLaNoGFnxZYb+VRu
+      kgzJE1EVoymRBt19Y1xzy5fJtI+z9/V9+MczaD4bYuvtXyEx2ELlm3UUe9cQLwWIKIrNgAxd
+      Jy8nlUM7X8XUIKPgCpJs/Rh6LslxNuxxxaTZTxCYBJcMybusKTkkzzQm6B0IsnjFKhK1AHV1
+      LYwU5U8fkhd+/5A8XdcxTVOG5F1G5nxInn4JDMkzjRD9A2Pkr0onzWLnWKCG8fCVWEJVnO0v
+      IcV/mG5HASsvGJJ34bRIMf/N+ZA8LoEheRZrAqtW5LP7xe2Mmi5WXn0tviQn6etXsLvyBUac
+      Pq7bWoL8nhfRFpvnAJqFtIJybi0on7bd7SnihtuLYrEkoSg5lxBKkwCE0iQAoTQJQChNAhBK
+      kwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJ
+      QChNAhBKkwCE0iQAoTQJQChNAhBKkwCE0iQAoTQJQChNAhBKi9GMMBMjEjk/KE/TtHPf2W6e
+      mwajTRuMIUS0zCiAyfFhhgIG6Z7kGT2EGJFedjy9g/6pveEPuLj1ri8xUV9J1cmzhCJWyjfd
+      SHmeDMkT0TWjAMYHWnjuid/hd+ayct06lhbl4klPxq5/vBx0awY33HUXmCaj7Yep6vWQbh9h
+      X2eYrbfdSWKwlV17T7Igd60MyRNRNaMAkr1l3P39JXQ2HKP6YBX/9bvt3PiP32eDL+ET7ccM
+      jXLsTICytWVYaMOweEly2bC7ikizHz8/JO/dQWrhcBjDMGRI3mVkXg7JC44OcOrEMWqPnaCh
+      vYfUhaXkJdo/8X4GuxsIJXhJcVoxQzYwJ88NyZsk9AFD8iwWiwzJu4zMyyF5o4MdHD/ZRuaS
+      q9h0WwmeJNcnPlc3zVGaTg1QsGYZVk3DsKSjh6to6yshxf8OPY4CVsmQvMvevBySl5xZzLpr
+      0sjxJnHm7YPU272sLSvCpn/8KxMe7Me+oIy8+KklWKxO1qxfye7dLxFw5VOxRYbkieibUQAj
+      HfW8VtXFTWU2nt95FFfkMIneb1LucX/sfdhSfZSlvneLRlx6AdffVjCTJQkxIzM6lxgfGyZs
+      aDQcO83ia25gnc9J30hwttcmRNTNKIDUnCIS+g7xSquN8vw0+h3pFKU5Z3ttQkTdjE6BdHs8
+      Szbcwm2li7Gbk4wvXoTHKWfsYv6Z0SNAb1MNRxp7cFgtaFYLgSP7qe4IzPbahIi6GQUQl5BI
+      7+ljnO7oorO5gYOtg6S55RFAzD8zOgVKyF3Gl7f08MwTjzJhulm+6WaWpsfN9tqEiLqZfRpU
+      s5G7Yiv/UPYZgsFJeju6CUxGSHHF5MOll6Sx338dY7hzzo7n+uyD6BlL5+x4l4sZ32M1TcNm
+      dzLhP8MjP3yAq+/9ORXFSbO5tnnNGO7EHGqbuwOG5WXomZhRAMNdZ6jtMrhqeQnxnmX88Nfb
+      0HR9ttcmRNTN6EmwzRKhZu9uGvoCTAaDhCMRTPOjLyfEpWZGjwATk2MEew7yT3cfYEFJNlYt
+      gc9/5+9Y5f34H4UQ4lIws1eBMhZy2zfu4dO9fnR3Ig5dJztd3gkW88+MToF0Lczp6p1s3/4H
+      TvnDdDc0EQiFZ3ttQkTdDN8JPsbxoJe7KsqxYOIcbORk99hsr02IqJtRAHZ7HKHAAP6xSQL9
+      nRxtHCTBLe8BiPlnRgEk+5ZRsTSBXe+c4mT1AVyrt1KeHj/baxMi6mb0a9vEQlb5Zu5ZXUHY
+      0IiEw+gWE+RLTMQ887/Iy9/MVMh7XwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Pie Chart' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Treemap' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABBNAAAQTQFnjAHg
+      AAAFm0lEQVR4nO3c20ubdxzH8U800USNpmrUeJiHVms7LWE9DAtrKWxXgzHYv7Ob3e9fGGwX
+      u9htR2Gs2+i6wWo7u5auVu3JOlvtyVo1Z2t2MZDKohSsEfm8X1f5kYfk+8DzJnn4RQPFYrEo
+      wFTFbg8A7CYCgLXg64vx+3Mam/hnt2YByqI2XKWRE70qFF9tDODK+Iy+/Pbn3ZoLKItEU70S
+      hxuUXs3zFQjeCADWCADWSgYQrQ1rqC8hSQoEpGOH3inrUEC5lAxgOZXVySN9qgpV6oPkAaUy
+      OUlSrC6ieKxu/biWxqha9tWVeglgTwhu9sQvf07qw+ODikUjuvjXHQ32tKq9uUHL6az6u+KS
+      pNW1Na2kc0pn81rJ5Ms2NPC2bHoPcGf2mfq74vr16h1J0shQrxaXM8oXXik50KmXqazaGuuV
+      yRW4+LFnbfoJIElzz5e0sJSSJC2uZPTw6aKW0zndnX2mbL6gqZknSvZ3qLUxqkt/T5djXuCt
+      2jKAR08X9WptTZJ0/vKETg73KZXJaWEppVQ2r+62RlWHghqbZPcYe9OWAfx+/d7645V0Tj+O
+      3trw/Mz8i52ZCigT9gFgjQBgjQBgbdMAgpUVSg506uhgl0LBSklSfW1Yg92tJY/v74orFo2s
+      r+siVTrc27a+HupLqCfRKEmKVIfUEW94KycAbMemN8Gfnj6iC2O3lc7lVREI6GB3q0aGelQV
+      CmriweMNx35yalgHOuI6f3lCi8sZ9SQa9dGJQQUrKzR+f159Hc0KV4fU0RLTs5cpnUru33CD
+      DeyWkp8AVcFK1YSrFK0Nq742olxhVZMPHuvrc6PKF1b/d/zZizd04ert9fX03IK+OvvH+gZZ
+      y746PX6+pHQ2r/7OuKSAhva3qzZctTNnBbyh0gGEKtUcq/vvgu2K6+Rw77be5MbdR0oe7FKs
+      LqKWxqhqwiFdn5rV6ff6t/W6wHaVDCCdLWjhZUqPF5Y1enNave1N23qTVCav73+7oScvVjR+
+      b06SlMkVFK7echsC2HElr8C1YlFXxmd05uiAasIh/XDplt5p3aeOlpga6iI6frhb16Zm9dmZ
+      pL77aUzJgU7t72zW2lpRmVxe6VxBvYkmxaIRvf9ut65OzqoiEFAsGtHozWkl5l/ozLEBXZt6
+      WO7zBTYIvP5/gb45N/rGfxN8qKdNgYA0fn9+x4YDdkKiqV5ffP6x0qv5rX8KsZVb01z42PvY
+      CIM1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1AoA1
+      AoA1AoA1AoC14OuL9uYGjQz37tYsQFk01teooSqicGVQ/wJqRheQP1RKewAAAABJRU5ErkJg
+      gg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
